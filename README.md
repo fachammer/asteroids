@@ -5,9 +5,13 @@ Shoot all the asteroids while avoiding to get hit. Collecting the purple diamond
 
 ## Run Instructions
 
-Run the following command inside the root directory of the project to start the game (requires Java 1.8)
+Run the following command inside the root directory of the project to start the game (requires Java JDK 1.8)
 
-    gradlew run
+    ./gradlew run
+
+On Linux you might have to make it executable first
+
+    chmod +x ./gradlew
 
 This will download gradle, build the game and then start it.
 
